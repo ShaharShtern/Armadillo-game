@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 18
+  controlID: 62
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 116
+  controlID: 67
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 117
+  controlID: 68
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -549,22 +549,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\Armadillo-game\Armadillo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c400000
-    m_LastClickedID: 16412
-    m_ExpandedIDs: 000000001440000000ca9a3b
+    m_SelectedIDs: 3a400000
+    m_LastClickedID: 16442
+    m_ExpandedIDs: 000000003a40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000014400000
+    m_ExpandedIDs: 000000003a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004a4200006e4f0000ce5a0000a24000002c5e00006e5e0000
+    m_ExpandedInstanceIDs: c62300004a4200006e4f0000ce5a0000a24000002c5e00006e5e0000523f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,8 +713,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a6d6ffff
-      m_LastClickedID: -10586
+      m_SelectedIDs: 40fbffff
+      m_LastClickedID: -1216
       m_ExpandedIDs: 70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -775,9 +775,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.944232, y: 2.8835933, z: -9.749967}
+    m_Target: {x: 70.580574, y: 3.4264865, z: -62.857994}
     speed: 2
-    m_Value: {x: 8.944232, y: 2.8835933, z: -9.749967}
+    m_Value: {x: 70.580574, y: 3.4264865, z: -62.857994}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -824,13 +824,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08445879, y: -0.35440263, z: 0.03243248, w: 0.9305869}
+    m_Target: {x: 0.03003349, y: -0.18275253, z: 0.0058539216, w: 0.98256725}
     speed: 2
-    m_Value: {x: 0.085913524, y: -0.35299665, z: 0.032838665, w: 0.93109286}
+    m_Value: {x: 0.030028082, y: -0.18424708, z: 0.0058996347, w: 0.98240346}
   m_Size:
-    m_Target: 0.037958115
+    m_Target: 0.19757104
     speed: 2
-    m_Value: 0.037842836
+    m_Value: 0.19487104
   m_Ortho:
     m_Target: 0
     speed: 2
