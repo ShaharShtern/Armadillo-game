@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'he' Physical Memory: 32680 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 14188 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,141 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/Armadillo-game/Armadillo
+D:/Unity Git/Armadillo-game/Armadillo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49855
-Successfully changed project path to: D:/GitHub/Armadillo-game/Armadillo
-D:/GitHub/Armadillo-game/Armadillo
+63436
+Successfully changed project path to: D:/Unity Git/Armadillo-game/Armadillo
+D:/Unity Git/Armadillo-game/Armadillo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/Armadillo-game/Armadillo/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Git/Armadillo-game/Armadillo/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
     Vendor:   
-    VRAM:     10077 MB
-    Driver:   30.0.15.1179
+    VRAM:     3990 MB
+    Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001401 seconds.
+Registered in 0.001909 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.380 seconds
+- Completed reload, in  0.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (380ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (521ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (284ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (136ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (109ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (21ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (55ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001278 seconds.
+Registered in 0.001955 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000016570966080 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016570C41090 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F868010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016570966080 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F99B220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656FD19010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F897A30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656FCC5010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F897A30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F897A30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656BC80E40 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656F607010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656FC17830 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001656FCED620 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (654ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (519ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 69.1 MB.
+Unloading 2806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.3 MB.
+System memory in use after: 126.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 2.173400 ms (FindLiveObjects: 0.111100 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.972700 ms  DeleteObjects: 0.046700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 3.344100 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.823400 ms  DeleteObjects: 0.064800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,18 +126,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets
-  artifactKey: Guid(9864d7cbcb1dea141b79d9ea720d2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(9864d7cbcb1dea141b79d9ea720d2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01676b2d8954f0593f4079cc9495c708') in 0.009498 seconds 
+  path: Assets/Background.png
+  artifactKey: Guid(ee1f2236146aa7a47a8ba2de9ab086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background.png using Guid(ee1f2236146aa7a47a8ba2de9ab086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6963d33ab72fb313954376b5dd7b79a') in 0.114222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 72642.798686 seconds.
-  path: Assets/demo armadillo.fbx
-  artifactKey: Guid(4ccc857754eb8ca4cbe9f307be404296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/demo armadillo.fbx using Guid(4ccc857754eb8ca4cbe9f307be404296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610492a3cdf6a9fdd9890dc6b673d1d1') in 0.240990 seconds 
+  Time since last request: 152.674600 seconds.
+  path: Assets/Assets/armadi.fbx
+  artifactKey: Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/armadi.fbx using Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ae5cd3fca9b659100850911b49c026') in 0.215464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.468570 seconds.
+  path: Assets/Assets/armadi.fbx
+  artifactKey: Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/armadi.fbx using Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7156dfb289d1253051ffadd19282928') in 0.087693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.270196 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c02cc4a1c521a4b820a6c7cc2d9903a') in 0.092780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.600774 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3848a454afefb65c073611ead02e7c1a') in 0.110604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.624833 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403c60658cd86abf7740bfc9ca498f72') in 0.087420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.748588 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0b7f02640ae31b2568277db8f3cad5') in 0.087192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.219818 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbb182e4c21948b1512a02632843406') in 0.129248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.929785 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1546fd2aa90855bd3b6a51edb4bffeab') in 0.087697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.219128 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942caaf6d0dd548855ad585ceacee907') in 0.121786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.784110 seconds.
+  path: Assets/Assets/Shack1.fbx
+  artifactKey: Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Shack1.fbx using Guid(928a9bb27e152fd43a678be46b871dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203db52a3d51bc3597d59fb7686c4e8') in 0.119114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.024394 seconds.
+  path: Assets/Assets/armadi.fbx
+  artifactKey: Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/armadi.fbx using Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ad5ed0ac1b7ae85b0a9fc65dbb0cc1') in 0.080651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.002658 seconds.
+  path: Assets/Assets/Coyote.fbx
+  artifactKey: Guid(91fadea8985b36e4d864504a2adbbd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Coyote.fbx using Guid(91fadea8985b36e4d864504a2adbbd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24f749558466b0b184a77ab5123c00b') in 0.039125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.256939 seconds.
+  path: Assets/Materials/M_Armadillo_main.mat
+  artifactKey: Guid(272cffd26718b3c48805c7d188505aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Armadillo_main.mat using Guid(272cffd26718b3c48805c7d188505aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddd96b94464d23cab1e86eaa3680c32') in 0.017899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.819697 seconds.
+  path: Assets/Materials/M_Armadillo_sub.mat
+  artifactKey: Guid(54c2109f8fe3ec14e8ac463a7c513455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Armadillo_sub.mat using Guid(54c2109f8fe3ec14e8ac463a7c513455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184b4df44c463f0e89afdc63bac4fb26') in 0.014646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.619645 seconds.
+  path: Assets/Background.png
+  artifactKey: Guid(ee1f2236146aa7a47a8ba2de9ab086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background.png using Guid(ee1f2236146aa7a47a8ba2de9ab086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b44c297240e285b106b2862a171d373') in 0.026291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1043.075795 seconds.
+  path: Assets/Assets/armadi.fbx
+  artifactKey: Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/armadi.fbx using Guid(0a9e265be255dc34cad90dda0bd62415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af63df36cf2f1204e802a1818ff9d448') in 0.063232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1259.926864 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b953185a570f08f898e378882504938f') in 0.218053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2842.606040 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1721a7b72b3dfe446fee5cd4dac5ba9a') in 0.041341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.941243 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3192754d95565277f55289b89ce26') in 0.054381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.596218 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04209180839a4038602afa38ba634bdf') in 0.046578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.253045 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95eb6f5cf4b67d96a9eb1dc3b76a8edc') in 0.050739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.499067 seconds.
+  path: Assets/Assets/Wanted post.fbx
+  artifactKey: Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wanted post.fbx using Guid(df4aaaa247ab5444081bd34fbf0c6040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c03cf262cb6ddf60ad6cc3f43fb3d8') in 0.042307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/wanted.psd
+  artifactKey: Guid(56b9c2539964e094189c5882151c7ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/wanted.psd using Guid(56b9c2539964e094189c5882151c7ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cce9b75a129c669fc9afa3f23c0f131') in 0.021042 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
