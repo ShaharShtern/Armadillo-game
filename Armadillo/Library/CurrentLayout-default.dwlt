@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1357
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 164
+  controlID: 19
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 21
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -549,22 +549,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/Environment/Buildings
+    - Assets/LowPoly Environment Pack/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/Environment/Buildings
+  - Assets/LowPoly Environment Pack/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\Armadillo-game\Armadillo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a4d0000
-    m_LastClickedID: 19850
-    m_ExpandedIDs: 00000000784d00007a4d0000824d00008c4d000000ca9a3b
+    m_SelectedIDs: 0c4e0000
+    m_LastClickedID: 19980
+    m_ExpandedIDs: 00000000ac4d0000ae4d0000b44d0000b64d0000be4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000784d00007a4d0000
+    m_ExpandedIDs: 00000000ac4d0000ae4d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,9 +713,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2e490000
-      m_LastClickedID: 18734
-      m_ExpandedIDs: 70fbffffbe480000d8480000
+      m_SelectedIDs: 0c4e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -775,9 +775,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.509764, y: 16.358479, z: -24.145842}
+    m_Target: {x: -21.833385, y: 18.622063, z: 27.800657}
     speed: 2
-    m_Value: {x: 3.509764, y: 16.358479, z: -24.145842}
+    m_Value: {x: -21.833385, y: 18.622063, z: 27.800657}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -824,13 +824,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09022261, y: 0.43488577, z: -0.04386984, w: 0.8948017}
+    m_Target: {x: 0.12026394, y: 0.539742, z: -0.078271545, w: 0.8294258}
     speed: 2
-    m_Value: {x: 0.09029463, y: 0.43357337, z: -0.043737512, w: 0.89551556}
+    m_Value: {x: 0.12015491, y: 0.54102385, z: -0.078457415, w: 0.8286739}
   m_Size:
-    m_Target: 0.15068851
+    m_Target: 0.20506625
     speed: 2
-    m_Value: 0.15068851
+    m_Value: 0.19623564
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -911,7 +911,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -924,7 +924,7 @@ MonoBehaviour:
       y: 21
       width: 1619
       height: 887
-    m_Scale: {x: 0.8212963, y: 0.8212963}
+    m_Scale: {x: 0.84074074, y: 0.8407408}
     m_Translation: {x: 809.5, y: 443.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -932,10 +932,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -985.637
-      y: -540
-      width: 1971.274
-      height: 1080
+      x: -962.84143
+      y: -527.511
+      width: 1925.6829
+      height: 1055.022
     m_MinimalGUI: 1
   m_defaultScale: 0.84074074
   m_LastWindowPixelSize: {x: 1619, y: 908}
