@@ -15,11 +15,11 @@ D:/GitHub/Armadillo-game/Armadillo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51564
+56736
 Successfully changed project path to: D:/GitHub/Armadillo-game/Armadillo
 D:/GitHub/Armadillo-game/Armadillo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,101 +35,101 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001463 seconds.
+Registered in 0.001548 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.408 seconds
+- Completed reload, in  0.404 seconds
 Domain Reload Profiling:
-	ReloadAssembly (408ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (404ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (313ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (129ms)
+			SetupLoadedEditorAssemblies (124ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001903 seconds.
+Registered in 0.001714 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FF731ED0C0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001F27330E9B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF6F1CF000 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F27384BA60 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF735DEC20 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F27369A010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF732E89B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001F27330E9B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF73F12420 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F27345A220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF73628010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F273646010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF735F3E30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F273665420 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF73628010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F273E58010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF72E85C20 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F273E80620 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF6F2B6220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F27394A220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF732E89B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F2734B2F40 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF72EA7020 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001F272F7D010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF7357A820 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F2736C9A30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FF73650620 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F26F631020 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
+- Completed reload, in  0.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (740ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (238ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -138,14 +138,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 126.9 MB.
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3241.
-Total: 2.645100 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.093000 ms MarkObjects: 2.280300 ms  DeleteObjects: 0.094300 ms)
+Total: 2.404400 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.080500 ms  DeleteObjects: 0.050800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,54 +159,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/dynamite.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/dynamite.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa9d1122d5a9f4b11dd992a97a87e74') in 0.211559 seconds 
+  path: Assets/Assets/Environment/Other
+  artifactKey: Guid(13c4443e7fdb7e84795c19858bfd91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Environment/Other using Guid(13c4443e7fdb7e84795c19858bfd91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474e705feca1ac55600e642329cb51b1') in 0.006492 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.006094 seconds.
-  path: Assets/Assets/Environment/Buildings/church.fbx
-  artifactKey: Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/Buildings/church.fbx using Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c810fdbc5bd9fa113bc2a44daf80b72') in 0.035152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.390005 seconds.
-  path: Assets/Assets/Environment/Buildings/church.fbx
-  artifactKey: Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/Buildings/church.fbx using Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191e5b3b2cfc1eceeb801cf77864fa61') in 0.027040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.339013 seconds.
-  path: Assets/Assets/Environment/Buildings/church.fbx
-  artifactKey: Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Environment/Buildings/church.fbx using Guid(1393a5c07569efd48a41029f76665217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3929f8d1fdd04a63e60ad3d2044d8b6') in 0.025966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.181450 seconds.
-  path: Assets/Assets/dynamite1.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/dynamite1.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71a56ebeba4a74d68bb691878eb87c') in 0.021842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.493390 seconds.
-  path: Assets/Assets/Characters/dynamite1.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/dynamite1.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133cbfd34957b89afbdf837323e5f9f') in 0.019218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.257987 seconds.
-  path: Assets/Assets/Characters/dynamite1.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/dynamite1.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08720ce563addc3d0f433075da338045') in 0.022118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.930409 seconds.
-  path: Assets/Assets/Characters/dynamite1.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/dynamite1.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a192da6239eae58598ceba5fdb167ab') in 0.019325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.532480 seconds.
-  path: Assets/Assets/Characters/dynamite1.fbx
-  artifactKey: Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/dynamite1.fbx using Guid(e79c76ff21f47944490d3758739e365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd23d980ae5b2bad849d9f07887cd41') in 0.019411 seconds 
+  Time since last request: 0.000109 seconds.
+  path: Assets/Assets/Environment/Other/fence.fbx
+  artifactKey: Guid(37cd86515e08d404aa3479c1aee58882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Environment/Other/fence.fbx using Guid(37cd86515e08d404aa3479c1aee58882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9f049b8b3e714d6a4b70611cefc35') in 0.198810 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
