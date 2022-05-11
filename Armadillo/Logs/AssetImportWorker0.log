@@ -15,11 +15,11 @@ D:/GitHub/Armadillo-game/Armadillo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54884
+56736
 Successfully changed project path to: D:/GitHub/Armadillo-game/Armadillo
 D:/GitHub/Armadillo-game/Armadillo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -30,110 +30,110 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
     Vendor:   
     VRAM:     10077 MB
-    Driver:   30.0.15.1179
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001452 seconds.
+Registered in 0.001548 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.396 seconds
+- Completed reload, in  0.404 seconds
 Domain Reload Profiling:
-	ReloadAssembly (396ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (404ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (301ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (122ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (124ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (12ms)
 				ProcessInitializeOnLoadAttributes (55ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001676 seconds.
+Registered in 0.001714 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027DFE8BFA20 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001F27330E9B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFDCA3470 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F27384BA60 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFDEB8020 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F27369A010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFE8BFA20 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001F27330E9B0 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFDEE7A40 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F27345A220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFDF0C020 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F273646010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DF9EDB170 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F273665420 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFE3E5010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F273E58010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DF9EDB170 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F273E80620 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFDDFC220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F27394A220 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFEAF1430 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F2734B2F40 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFE12F010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001F272F7D010 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFEAF1430 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F2736C9A30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027DFE012C30 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F26F631020 doesn't match image D:\GitHub\Armadillo-game\Armadillo\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 35.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (753ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (239ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadAttributes (127ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -141,11 +141,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 second
 Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 126.9 MB.
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3241.
-Total: 2.873000 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.505200 ms  DeleteObjects: 0.056200 ms)
+Total: 2.404400 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.080500 ms  DeleteObjects: 0.050800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,91 +159,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab
-  artifactKey: Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_2.prefab using Guid(dc00aab85b301f242896a77c4b442ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15367901ffdef82829f87526ac9b2389') in 0.160395 seconds 
+  path: Assets/Assets/Environment/Other
+  artifactKey: Guid(13c4443e7fdb7e84795c19858bfd91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Environment/Other using Guid(13c4443e7fdb7e84795c19858bfd91fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474e705feca1ac55600e642329cb51b1') in 0.006492 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Grass_2.prefab
-  artifactKey: Guid(c04be9f92ebf58b46b2204ac3aaa8785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Grass_2.prefab using Guid(c04be9f92ebf58b46b2204ac3aaa8785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3216ecbd0f387b771aba927892900774') in 0.007748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Plant_1.prefab
-  artifactKey: Guid(48ad265f338caaf4da3a864816595b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_1.prefab using Guid(48ad265f338caaf4da3a864816595b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e5b0db98b8d18ff6904cf0d3c0ae14') in 0.006456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Bush_1.prefab
-  artifactKey: Guid(d82a0024cf3346b4695544dd461fb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Bush_1.prefab using Guid(d82a0024cf3346b4695544dd461fb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16784d595c5727c1dd8e9b6752bf6ef') in 0.004924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Plant_3.prefab
-  artifactKey: Guid(01bdef6597b249b44a9530ab656246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_3.prefab using Guid(01bdef6597b249b44a9530ab656246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c46c6b619028ae17bae1898fea0874e') in 0.005639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab
-  artifactKey: Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab using Guid(fa6105287f77b1240a0017f7d23434c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572dfc1ba4e37266eaed72e6e8f0260') in 0.013991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab
-  artifactKey: Guid(fd4804b84d34a784ea6831ede116af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab using Guid(fd4804b84d34a784ea6831ede116af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50fb8bc0f7946179f69953011dcb062') in 0.004762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Bush_2.prefab
-  artifactKey: Guid(0de8a3d472546b04aa775e83b052764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Bush_2.prefab using Guid(0de8a3d472546b04aa775e83b052764e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc2164a18fb706241a5bbcdc39952b8') in 0.005188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs
-  artifactKey: Guid(0dc6268c13712ab439ede78390bed311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs using Guid(0dc6268c13712ab439ede78390bed311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca300906b5327b21961ca912a0389b9b') in 0.003394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Bush_3.prefab
-  artifactKey: Guid(27ce25370e5628e4097b7cb95b3a151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Bush_3.prefab using Guid(27ce25370e5628e4097b7cb95b3a151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4366a96cb6a8b0a9a1c22e7030cd9e48') in 0.005173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Terrain_2.prefab
-  artifactKey: Guid(ef140beec582a5a46a6362fcfc31784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Terrain_2.prefab using Guid(ef140beec582a5a46a6362fcfc31784d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f839e528ab21d14a81cb0fc64a13c106') in 0.021489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Plant_7.prefab
-  artifactKey: Guid(1a6a34cedc83b654099dbb403ec40524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_7.prefab using Guid(1a6a34cedc83b654099dbb403ec40524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90c763749662e2baf70e2fdef414573') in 0.004788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Plant_2.prefab
-  artifactKey: Guid(4dcb45769932d8b449fc6523626179be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Plant_2.prefab using Guid(4dcb45769932d8b449fc6523626179be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1be2c81c5bbbd73a4e4ac67a192a97d') in 0.004972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Grass_1.prefab
-  artifactKey: Guid(b2199aadf1bb8c4449f3edfc84a39f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Grass_1.prefab using Guid(b2199aadf1bb8c4449f3edfc84a39f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c166d87a049cc9c825c70b454d9b95e0') in 0.004978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/LowPoly Environment Pack/Prefabs/Tree_1.prefab
-  artifactKey: Guid(c7821bc923171f24094e69062402d005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Environment Pack/Prefabs/Tree_1.prefab using Guid(c7821bc923171f24094e69062402d005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c489445c45bdee9de10c69e98fc600') in 0.016941 seconds 
+  Time since last request: 0.000109 seconds.
+  path: Assets/Assets/Environment/Other/fence.fbx
+  artifactKey: Guid(37cd86515e08d404aa3479c1aee58882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Environment/Other/fence.fbx using Guid(37cd86515e08d404aa3479c1aee58882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9f049b8b3e714d6a4b70611cefc35') in 0.198810 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
